@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    background-color: black;
+}
+
+.font-nunito{
+    font-family: "Nunito Sans", sans-serif;
+
+}
+.ReactGridGallery_tile{
+    background: none !important;
+}
+.grid-gallery-item_thumbnail{
+    border-radius: 40px !important;
+}
+.ReactGridGallery_tile-viewport img{
+    border-radius: 60px !important;
+}
+:where(.css-dev-only-do-not-override-zg0ahe).ant-select-outlined:not(.ant-select-customize-input) .ant-select-selector{
+    background-color: #0000 !important;
+}
+.ant-select-selection-item,:where(.css-dev-only-do-not-override-zg0ahe).ant-select .ant-select-arrow{
+    color: #fff !important;
+}
